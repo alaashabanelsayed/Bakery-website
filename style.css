@@ -1,0 +1,309 @@
+
+
+body{
+    margin: 0;
+    font-family: Alegreya ;
+    box-sizing: border-box;
+}
+
+.head{
+    background-image: url(1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+}
+
+    
+
+
+.head button{
+    border-radius: 4px;
+    border: 1px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+.learn{
+    background-color: #8e7754;
+}
+.us{
+    background-color:transparent;
+    
+    border-color: rgb(240, 240, 244);
+}
+.welcom{
+    /* background-color: ; */
+    text-align: center;
+    /* width: 50%; */
+    margin: auto;
+    /* padding: 50px; */
+    font-size: 34px;
+    color: aliceblue;   
+}
+
+
+.who-we{
+    display: inline-block;
+    margin: auto;
+
+}
+
+
+.who-we-img{
+
+    /* margin: auto; */
+    /* padding: 50px; */
+    /* background-colorred; */
+    display: inline-block;
+    width: 44%
+  }
+    
+
+ .who-we-img img{
+   
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    display: inline-block;
+
+}
+
+
+.baker{
+
+    width: 43%;
+    display: inline-block;
+    text-align: center;
+    /* background-color:lue; */
+    /* margin-top:100px  50px; */
+    /* vertical-align: text-top; */
+    /* vertical-align:text-bottom ; */
+    vertical-align: top;
+    padding: 70px;
+    
+
+}
+
+ @media screen and (max-width:600px) {
+   
+   .baker , .who-we , .who-we-img {
+    display: block;
+   }
+   
+    .baker{
+        /* display: table; */
+       width:70%;
+       
+       /* padding: 0 20px; */
+    
+   
+   
+    }
+    .who-we-img{
+    width: 70%;
+   }
+       
+   }   
+
+
+
+.OurLocation{
+    background-color: #f8f8f8  ;
+    display: inline-block;
+}
+.our{
+
+    
+ color:#686868 ;
+
+    /* background-color: ; */
+    width: 44%;
+    display: inline-block;
+    text-align: left;
+    margin: 50px;
+    /* padding: 50px; */
+
+   
+
+    vertical-align: top
+
+
+
+    
+}
+
+
+
+
+.location{ 
+    display: inline-block;
+    text-align: center;
+    width: 42%;
+    /* vertical-align: auto; */
+    
+   
+
+
+}
+.location img{
+    background-color: gb(255, 0, 0);
+    width: 80%;
+    display: inline-block;
+    margin: auto;
+    padding-top: 40px;
+}
+  
+
+.OurBaking{
+    background-color: banchedalmond;
+}
+.backing{
+display: inline-block;
+background-color: white;
+width: 90%;
+text-align: center;
+margin: auto;
+/* padding: 50px; */
+font-size: medium;
+
+}
+
+.cookies{
+    display: inline-block;
+    background-color: quamarine;
+   width: 30%;
+text-align: center;
+
+
+
+}
+.cookies img{
+    display: inline-block;
+    width:80% ;
+    /* margin: 50px;  */
+    /* padding: 50px; */
+}
+
+
+@media screen and (max-width:768px) {
+   
+
+    .backing ,   .cookies, .who-we-img {
+     display: block;
+    }
+    
+    .backing{
+       
+       
+        width:80%;
+     }
+     .cookies{
+     width: 80%;
+
+    }
+        
+    } 
+
+
+
+.ContactInformation{
+    background-color:  #f8f8f8 ;
+    padding: 50px;
+}
+
+.contact{
+
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    
+
+}
+.information{
+
+    
+    width: 44%;
+    display: inline-block;
+    padding: 50px;
+}
+/* .information img{
+    display: inline-block;
+    width: 100%;
+    padding: 50px;
+} */
+
+
+.data{
+    background-color:#403d38;
+    display: inline-block;
+    color: #fff ;
+}
+.about{
+
+    display: inline-block;
+    width: 23%;
+    padding: 20px;
+}
+.why{
+
+    width: 23%;
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+}
+.hours{
+    width: 23%;
+    display: inline-block;
+}
+
+.details{
+
+    width: 23%;
+    display: inline-block;
+}
+@media screen and (max-width:768px) {
+   
+
+    .about ,   .why, .hours ,.details  {
+     display: block;
+    }
+    
+    .hours {
+       
+        width:80%;
+     }
+     .details{
+     width: 80%;
+
+    }
+      
+    .why{
+        width: 80%;
+    }
+
+    .about{
+        width: 80%;
+    }
+
+      
+      
+
+
+
+
+    } 
+
+
+.footer{
+    background-color:  #353330;
+    text-align: center;
+    color:  #fff ;
+    padding: 40px;
+    
+}
+.footer img{
+    width:25% ;
+    
+}
